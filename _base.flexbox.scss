@@ -1,0 +1,97 @@
+/*------------------------------------*\
+    #PX-FLEXBOX-DESIGN
+\*------------------------------------*/
+
+/**
+* Flexbox for Predix Experience
+*/
+
+@if import-once('base.flexbox') {
+  
+  
+  .#{$inuit-box-namespace}flex,
+  %#{$inuit-box-namespace}flex {
+    display: flex;
+  }
+  
+  .#{$inuit-box-namespace}flex--reverse,
+  %#{$inuit-box-namespace}flex--reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .#{$inuit-box-namespace}flex--column,
+  %#{$inuit-box-namespace}flex--column {
+    flex-direction: column;
+  }
+  
+  .#{$inuit-box-namespace}flex--column--reverse,
+  %#{$inuit-box-namespace}flex--column--reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .#{$inuit-box-namespace}flex--wrap,
+  %#{$inuit-box-namespace}flex--wrap {
+    flex-wrap: wrap;
+  }
+  
+  .#{$inuit-box-namespace}flex--center,
+  %#{$inuit-box-namespace}flex--center {
+    justify-content: center;
+  }
+  
+  .#{$inuit-box-namespace}flex--right,
+  %#{$inuit-box-namespace}flex--right {
+    justify-content: flex-end;
+  }
+  
+  .#{$inuit-box-namespace}flex--justify,
+  %#{$inuit-box-namespace}flex--justify {
+    justify-content: space-between;
+  }
+  
+  .#{$inuit-box-namespace}flex--spaced,
+  %#{$inuit-box-namespace}flex--spaced {
+    justify-content: space-around;
+  }
+  
+  .#{$inuit-box-namespace}flex--top,
+  %#{$inuit-box-namespace}flex--top {
+    align-items: flex-start;
+  }
+  
+  .#{$inuit-box-namespace}flex--middle,
+  %#{$inuit-box-namespace}flex--middle {
+    align-items: center;
+  }
+  
+  .#{$inuit-box-namespace}flex--bottom,
+  %#{$inuit-box-namespace}flex--bottom {
+    align-items: flex-end;
+  }
+  
+  .#{$inuit-box-namespace}flex--baseline,
+  %#{$inuit-box-namespace}flex--baseline {
+    align-items: baseline;
+  }
+  
+  .#{$inuit-box-namespace}flex__item--top,
+  %#{$inuit-box-namespace}flex__item--top {
+    align-self: flex-start;
+  }
+  
+  .#{$inuit-box-namespace}flex__item--middle,
+  %#{$inuit-box-namespace}flex__item--middle {
+    align-self: center;
+  }
+  
+  .#{$inuit-box-namespace}flex__item--bottom,
+  %#{$inuit-box-namespace}flex__item--bottom {
+    align-self: flex-end;
+  }
+  
+  .#{$inuit-box-namespace}flex__item--baseline,
+  %#{$inuit-box-namespace}flex__item--baseline {
+    align-self: baseline;
+  }
+
+}
