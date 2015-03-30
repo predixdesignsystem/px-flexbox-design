@@ -12,7 +12,7 @@
     "px"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/pxc/px-flexbox-design.git",
+  "homepage": "git://github.sw.ge.com/PXd/px-flexbox-design.git",
   "private": true,
   "ignore": [
     "**/.*",
@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master"
+    "px-functions-design": "git://github.sw.ge.com/PXd/px-functions-design.git#master"
   }
 }
