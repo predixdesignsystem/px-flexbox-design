@@ -79,6 +79,11 @@ $inuit-flexbox-namespace        : $inuit-namespace !default;
     align-items: baseline;
   }
   
+  .#{$inuit-flexbox-namespace}flex__item,
+  %#{$inuit-flexbox-namespace}flex__item {
+    flex: 1;
+  }
+  
   .#{$inuit-flexbox-namespace}flex__item--top,
   %#{$inuit-flexbox-namespace}flex__item--top {
     align-self: flex-start;
