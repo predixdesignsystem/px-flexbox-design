@@ -1,15 +1,13 @@
-/*------------------------------------*\
-    #PX-FLEXBOX-DESIGN
-\*------------------------------------*/
-
-/**
-* Flexbox for Predix Experience
-*/
+////
+/// PX-FLEXBOX-DESIGN
+/// Classes for flexbox properties
+/// @group px-flexbox-design
+////
 
 @import "../px-functions-design/tools.functions";
 
-// Predefine the variables below in order to alter and enable specific features.
-$inuit-flexbox-namespace        : $inuit-namespace !default;
+/// @type String [default] - Prepend value for all generated classes
+$inuit-flexbox-namespace  : $inuit-namespace !default;
 
 @if import-once('base.flexbox') {
   
@@ -19,24 +17,44 @@ $inuit-flexbox-namespace        : $inuit-namespace !default;
     display: flex;
   }
   
-  .#{$inuit-flexbox-namespace}flex--reverse,
-  %#{$inuit-flexbox-namespace}flex--reverse {
+  .#{$inuit-flexbox-namespace}flex--row,
+  %#{$inuit-flexbox-namespace}flex--row {
+    flex-direction: row;
+  }
+  
+  .#{$inuit-flexbox-namespace}flex--row--rev,
+  %#{$inuit-flexbox-namespace}flex--row--rev {
     flex-direction: row-reverse;
   }
   
-  .#{$inuit-flexbox-namespace}flex--column,
-  %#{$inuit-flexbox-namespace}flex--column {
+  .#{$inuit-flexbox-namespace}flex--col,
+  %#{$inuit-flexbox-namespace}flex--col {
     flex-direction: column;
   }
   
-  .#{$inuit-flexbox-namespace}flex--column--reverse,
-  %#{$inuit-flexbox-namespace}flex--column--reverse {
+  .#{$inuit-flexbox-namespace}flex--col--rev,
+  %#{$inuit-flexbox-namespace}flex--col--rev {
     flex-direction: column-reverse;
+  }
+  
+  .#{$inuit-flexbox-namespace}flex--nowrap,
+  %#{$inuit-flexbox-namespace}flex--nowrap {
+    flex-wrap: nowrap;
   }
   
   .#{$inuit-flexbox-namespace}flex--wrap,
   %#{$inuit-flexbox-namespace}flex--wrap {
     flex-wrap: wrap;
+  }
+  
+  .#{$inuit-flexbox-namespace}flex--wrap--rev,
+  %#{$inuit-flexbox-namespace}flex--wrap--rev {
+    flex-wrap: wrap-reverse;
+  }
+  
+  .#{$inuit-flexbox-namespace}flex--left,
+  %#{$inuit-flexbox-namespace}flex--left {
+    justify-content: flex-start;
   }
   
   .#{$inuit-flexbox-namespace}flex--center,
@@ -74,9 +92,44 @@ $inuit-flexbox-namespace        : $inuit-namespace !default;
     align-items: flex-end;
   }
   
+  .#{$inuit-flexbox-namespace}flex--stretch,
+  %#{$inuit-flexbox-namespace}flex--stretch {
+    align-items: stretch;
+  }
+  
   .#{$inuit-flexbox-namespace}flex--baseline,
   %#{$inuit-flexbox-namespace}flex--baseline {
     align-items: baseline;
+  }
+  
+  .#{$inuit-flexbox-namespace}flex--top--multi,
+  %#{$inuit-flexbox-namespace}flex--top--multi {
+    align-content: flex-start;
+  }
+  
+  .#{$inuit-flexbox-namespace}flex--middle--multi,
+  %#{$inuit-flexbox-namespace}flex--middle--multi {
+    align-content: center;
+  }
+  
+  .#{$inuit-flexbox-namespace}flex--bottom--multi,
+  %#{$inuit-flexbox-namespace}flex--bottom--multi {
+    align-content: flex-end;
+  }
+  
+  .#{$inuit-flexbox-namespace}flex--stretch--multi,
+  %#{$inuit-flexbox-namespace}flex--stretch--multi {
+    align-content: stretch;
+  }
+  
+  .#{$inuit-flexbox-namespace}flex--justify--multi,
+  %#{$inuit-flexbox-namespace}flex--justify--multi {
+    align-content: space-between;
+  }
+  
+  .#{$inuit-flexbox-namespace}flex--spaced--multi,
+  %#{$inuit-flexbox-namespace}flex--spaced--multi {
+    align-content: space-around;
   }
   
   .#{$inuit-flexbox-namespace}flex__item,
