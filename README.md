@@ -24,9 +24,9 @@ Install this module and its dependency using bower:
 
     bower install --save https://github.build.ge.com/PXd/px-flexbox-design.git
 
-Once installed, `@import` into your project's Sass file in its Generic layer:
+Once installed, `@import` into your project's Sass file in its Base layer:
 
-    @import "../px-flexbox-design/generic.flexbox";
+    @import "../px-flexbox-design/base.flexbox";
 
 See [px-getting-started](https://github.build.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
