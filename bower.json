@@ -1,6 +1,6 @@
 {
   "name": "px-flexbox-design",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "authors": [
     "General Electric"
   ],
@@ -20,8 +20,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "px-functions-design": "git://github.build.ge.com/PXd/px-functions-design.git#~0.1.0"
-  }
+  ]
 }
