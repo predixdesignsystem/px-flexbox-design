@@ -1,6 +1,6 @@
 {
   "name": "px-flexbox-design",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "authors": [
     "General Electric"
   ],
@@ -12,7 +12,7 @@
     "px"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.build.ge.com/PXd/px-flexbox-design.git",
+  "homepage": "https://github.build.ge.com/PXd/px-flexbox-design.git",
   "private": true,
   "ignore": [
     "**/.*",
