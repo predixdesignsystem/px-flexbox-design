@@ -1,0 +1,24 @@
+{
+  "name": "px-flexbox-design",
+  "version": "0.3.4",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "Flexbox for Predix Experience",
+  "main": "_base.flexbox.scss",
+  "keywords": [
+    "flexbox",
+    "sass",
+    "px"
+  ],
+  "license": "Apache 2",
+  "homepage": "https://github.com/PredixDev/px-flexbox-design.git",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
