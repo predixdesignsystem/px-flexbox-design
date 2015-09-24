@@ -2,9 +2,7 @@
 
 The Predix Experience Flexbox module assigns classes to each of the non-unit properties currently available in Flexbox. These properties are referenced from CSS-Tricks' [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-## Sass Documentation
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-flexbox-design/sassdoc
 
 ## Dependency
 
