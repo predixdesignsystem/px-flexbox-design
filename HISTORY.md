@@ -1,6 +1,10 @@
-v0.3.8
+v0.3.9
 ==============================
 * added inline--flex
+
+v0.3.8
+==============================
+* updated oss notice and readme, pointing to gh-pages
 
 v0.3.7
 ==============================

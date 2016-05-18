@@ -20,8 +20,10 @@ The Flexbox module is also an upstream dependency in this meta kit:
 
 Install this module and its dependency using bower:
 
-    bower install --save https://github.com/PredixDev/px-flexbox-design.git
+    bower install --save px-flexbox-design
 
 Once installed, `@import` into your project's Sass file in its Base layer:
 
     @import "px-flexbox-design/_base.flexbox.scss";
+
+View the full API [here](http://predixdev.github.io/px-flexbox-design/sassdoc/)
