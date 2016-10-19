@@ -1,0 +1,28 @@
+[
+    {
+        "description": "Sets a prepended namespace for all generated classes.\n\n",
+        "commentRange": {
+            "start": 9,
+            "end": 12
+        },
+        "context": {
+            "type": "variable",
+            "name": "inuit-flexbox-namespace",
+            "value": "$inuit-namespace",
+            "scope": "default",
+            "line": {
+                "start": 13,
+                "end": 13
+            }
+        },
+        "group": [
+            "px-flexbox-design:variables:style"
+        ],
+        "type": "String [default]",
+        "access": "public",
+        "file": {
+            "path": "_base.flexbox.scss",
+            "name": "_base.flexbox.scss"
+        }
+    }
+]

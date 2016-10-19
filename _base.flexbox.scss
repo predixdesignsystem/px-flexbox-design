@@ -4,11 +4,13 @@
 /// @group px-flexbox-design
 ////
 
-@import "px-defaults-design/_settings.defaults.scss";
+@import 'px-defaults-design/_settings.defaults.scss';
 
-/// @type String [default] - Prepend value for all generated classes
+/// Sets a prepended namespace for all generated classes.
+///
+/// @group px-flexbox-design:variables:style
+/// @type String [default]
 $inuit-flexbox-namespace  : $inuit-namespace !default;
-
 
 .#{$inuit-flexbox-namespace}flex,
 %#{$inuit-flexbox-namespace}flex {

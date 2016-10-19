@@ -1,10 +1,10 @@
 {
   "name": "px-flexbox-design",
-  "version": "0.3.8",
+  "version": "0.3.10",
   "authors": [
     "General Electric"
   ],
-  "description": "Flexbox for Predix Experience",
+  "description": "lexbox creates layout classes to give elements sizes and dynamically put elements in the right place. The flexbox module a wrapper around all of CSS flexbox's non-unit-based properties.",
   "main": "_base.flexbox.scss",
   "keywords": [
     "flexbox",
@@ -18,6 +18,15 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
-  ]
+    "tests",
+    "OSS_Notice.pdf"
+  ],
+  "dependencies": {
+    "px-defaults-design": "^0.2.9"
+  },
+  "devDependencies": {
+    "px-starter-kit-design": "~0.6.0",
+    "px-sass-doc": "^0.2.4",
+    "px-data-table": "^1.14.0"
+  }
 }
