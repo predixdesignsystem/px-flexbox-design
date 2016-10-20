@@ -1,6 +1,6 @@
 {
   "name": "px-flexbox-design",
-  "version": "0.3.10",
+  "version": "0.3.11",
   "authors": [
     "General Electric"
   ],
@@ -22,7 +22,7 @@
     "OSS_Notice.pdf"
   ],
   "dependencies": {
-    "px-defaults-design": "^0.2.9"
+    "px-defaults-design": "^0.3.0"
   },
   "devDependencies": {
     "px-starter-kit-design": "~0.6.0",
