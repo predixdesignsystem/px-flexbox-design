@@ -142,6 +142,11 @@ $inuit-flexbox-namespace  : $inuit-namespace !default;
   flex: 1;
 }
 
+.#{$inuit-flexbox-namespace}flex__item--msfix,
+%#{$inuit-flexbox-namespace}flex__item--msfix {
+  flex: 1 1 auto;
+}
+
 .#{$inuit-flexbox-namespace}flex__item--top,
 %#{$inuit-flexbox-namespace}flex__item--top {
   align-self: flex-start;
