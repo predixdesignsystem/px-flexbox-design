@@ -279,7 +279,7 @@ Most of the classes available to style containers full of children can be applie
 
 `.flex__item` <span class="u-ml--">Sets a child to lay itself out using flex</span> <span class="u-ml-- muted">[sets *flex: 1*]</span>
 
-`.flex__item--msfix` <span class="u-ml--">IE interprets 'flex: 1' to be 'flex: 1 1 0px', where the 0px is refering to flex basis. Other browsers interpret 'flex: 1' to be 'flex: 1 1 0%'.  This class forces IE to have the correct class by explictly setting it. It should be used along side `.flex__item`</span> <span class="u-ml-- muted">[sets *flex: 1 1 auto*]</span>
+`.flex__item--msfix` <span class="u-ml--">IE interprets 'flex: 1' to be 'flex: 1 1 0px', where 0px is referring to flex basis. This causes containers in some situations to collapse even when they have content. Other browsers interpret 'flex: 1' to be 'flex: 1 1 0%'.  This class forces IE to have the correct style by explicitly setting it. It should be used alongside `.flex__item`</span> <span class="u-ml-- muted">[sets *flex: 1 1 auto*]</span>
 
 #### align-self (items)
 

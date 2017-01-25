@@ -1,3 +1,7 @@
+v0.5.0
+==================
+* added 'flex__item--msfix'
+
 v0.4.2
 ==================
 * changing ghp.sh to account for Alpha releases
