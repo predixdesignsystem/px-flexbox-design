@@ -1,3 +1,7 @@
+v0.5.1
+==================
+* rebuilt sass with new colors
+
 v0.5.0
 ==================
 * added 'flex__item--msfix'
