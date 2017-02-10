@@ -35,7 +35,7 @@ PAGE. IT SHOULD NOT PROVIDE RULES FOR THE MODULE.
 // Component - THINGS TO SHOW YOUR DEMO
 #demo1, #demo2 {
   min-height: 250px;
-  background-color: $gray2;
+  background-color: var(--px-flexbox-demo-bg-color, $gray2);
 
   & > div {
     box-sizing: border-box;
@@ -43,29 +43,15 @@ PAGE. IT SHOULD NOT PROVIDE RULES FOR THE MODULE.
     line-height: 1;
     margin: 10px;
     text-align: center;
-    color: white;
-    background-color: $orange-dark;
-    &:nth-of-type(2) { background-color: $purple-dark; }
-    &:nth-of-type(3) { background-color: $red-dark; }
-  }
-}
-
-#demo3 {
-  background-color: $gray3;
-  margin: 1rem 0;
-  box-sizing: border-box;
-
-  & > div {
-    padding: 1rem;
-    margin: 1rem;
-    color: $white;
-    background-color: $primary-blue;
+    color: var(--px-flexbox-demo-box-text-color, white);
+    background-color: var(--px-flexbox-demo-box1-color, $orange-dark);
+    &:nth-of-type(2) { background-color: var(--px-flexbox-demo-box2-color, $purple-dark) }
+    &:nth-of-type(3) { background-color: var(--px-flexbox-demo-box3-color, $red-dark) }
   }
 }
 
 .example {
   // padding: 0 2rem;
-
 
   // iframe {
   //   padding: 0 2rem;
