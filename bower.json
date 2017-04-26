@@ -4,7 +4,7 @@
   "authors": [
     "General Electric"
   ],
-  "description": "lexbox creates layout classes to give elements sizes and dynamically put elements in the right place. The flexbox module a wrapper around all of CSS flexbox's non-unit-based properties.",
+  "description": "Flexbox creates layout classes to give elements sizes and dynamically put elements in the right place. The flexbox module a wrapper around all of CSS flexbox's non-unit-based properties.",
   "main": "_base.flexbox.scss",
   "keywords": [
     "flexbox",
