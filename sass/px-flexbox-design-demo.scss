@@ -30,12 +30,11 @@ PAGE. IT SHOULD NOT PROVIDE RULES FOR THE MODULE.
 // Base
 @import "px-flexbox-design/_base.flexbox.scss";
 @import "px-viewport-design/_base.viewport.scss";
-@import "px-typography-design/_base.typography.scss";
 
 // Component - THINGS TO SHOW YOUR DEMO
 #demo1, #demo2 {
   min-height: 250px;
-  background-color: var(--px-flexbox-demo-bg-color, $gray2);
+  background-color: var(--px-flexbox-demo-bg-color, $gray1);
 
   & > div {
     box-sizing: border-box;
@@ -44,9 +43,9 @@ PAGE. IT SHOULD NOT PROVIDE RULES FOR THE MODULE.
     margin: 10px;
     text-align: center;
     color: var(--px-flexbox-demo-box-text-color, white);
-    background-color: var(--px-flexbox-demo-box1-color, $orange-dark);
-    &:nth-of-type(2) { background-color: var(--px-flexbox-demo-box2-color, $purple-dark) }
-    &:nth-of-type(3) { background-color: var(--px-flexbox-demo-box3-color, $red-dark) }
+    background-color: var(--px-flexbox-demo-box1-color, $orange7);
+    &:nth-of-type(2) { background-color: var(--px-flexbox-demo-box2-color, $purple7) }
+    &:nth-of-type(3) { background-color: var(--px-flexbox-demo-box3-color, $red7) }
   }
 }
 
@@ -62,7 +61,7 @@ PAGE. IT SHOULD NOT PROVIDE RULES FOR THE MODULE.
   border-top: 1px solid $gray4;
   padding-top: .4rem;
   // margin: .4rem;
-  color: $gray8;
+  color: $gray13;
   @extend .caps;
 }
 

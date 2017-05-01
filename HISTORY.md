@@ -1,4 +1,4 @@
-v1.0.0-prerelease
+v1.0.0
 ==================
 * updated dependencies for design refresh
 
