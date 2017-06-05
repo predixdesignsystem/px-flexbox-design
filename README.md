@@ -64,8 +64,6 @@ For a full, interactive demo of the available classes and enhanced documentation
 
 `.flex--col--rev` Lays children out vertically in the reverse direction (from bottom-to-top) [must be applied with class *.flex--col*]
 
-`.flex--wrap` Lays children out horizontally, and wraps children into new rows when necessary.
-
 #### flex-wrap
 
 *Classes to change the wrapping behavior of children.*
