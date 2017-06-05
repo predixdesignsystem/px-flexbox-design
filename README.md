@@ -50,6 +50,8 @@ For a full, interactive demo of the available classes and enhanced documentation
 
 `.flex` Sets a container to use flex for layout
 
+`.inline--flex` Sets a container to use inline-flex for layout
+
 #### flex-direction
 
 *Classes to change the direction children flow.*
@@ -63,6 +65,16 @@ For a full, interactive demo of the available classes and enhanced documentation
 `.flex--col--rev` Lays children out vertically in the reverse direction (from bottom-to-top) [must be applied with class *.flex--col*]
 
 `.flex--wrap` Lays children out horizontally, and wraps children into new rows when necessary.
+
+#### flex-wrap
+
+*Classes to change the wrapping behavior of children.*
+
+`.flex--nowrap` All children will appear on one line
+
+`.flex--wrap` Children will wrap onto multiple lines, from top to bottom
+
+`.flex--wrap--rev` Children will wrap onto multiple lines, from bottom to top
 
 #### justify-content
 
