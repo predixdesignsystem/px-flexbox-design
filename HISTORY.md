@@ -1,6 +1,7 @@
 v1.0.0
 ==================
 * updated dependencies for design refresh
+* fix #2 documentation gaps
 
 v0.5.2
 ==================
