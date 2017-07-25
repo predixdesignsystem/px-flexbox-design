@@ -1,42 +1,30 @@
 # px-flexbox-design
 
-Flexbox creates layout classes to give elements sizes and dynamically put elements in the right place. The flexbox module is a wrapper around all of CSS flexbox's non-unit-based properties. For more information about flexbox, take a look at the excellent CSS-Tricks [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+The Predix UI Flexbox module creates layout classes to give elements sizes and dynamically put elements in the right place. The `px-flexbox-design` module is a wrapper around all of CSS flexbox's non-unit-based properties. For more information about flexbox, take a look at the excellent CSS-Tricks [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
-**px-flexbox-design is a Predix UI CSS module.** You can find a demonstration and full documentation on the [Predix UI catalog](https://predixdev.github.io/predix-ui/?show=px-flexbox-design&type=css]).
+## Dependencies
 
-## Install the module
+The `px-flexbox-design` module depends on the following modules (automatically included with Bower install):
 
-To use this module module, you need to install it in your project using Bower. Run this task on the command line from inside your project folder:
+* [px-functions-design](https://github.com/PredixDev/px-functions-design)
 
-```
-bower install --save px-flexbox-design
-```
+## Installation
 
-## Import it in your Sass
+Install this module and its dependencies using bower:
 
-The module won't do anything until you import and configure it in your project Sass file. Follow these steps to import it:
+    bower install --save px-flexbox-design
 
-### 1. Enable Flags
+Once installed, `@import` into your project's Sass file in its Base layer:
 
-There are no flags to set before importing this module in your project Sass file.
+    @import "px-flexbox-design/_base.flexbox.scss";
 
-### 2. Customize Styles
+## Usage
 
-You can change style variables to customize the design of this module. To change styles, set any the variables below to a new value above the module's `@import` statement in your project Sass file:
+The following variables are available for use in the module:
 
-```
-$inuit-flexbox-namespace
-```
+    $inuit-flexbox-namespace
 
-### 3. Import Sass File
-
-Import the module by placing this code into the **Base** layer of your project Sass file:
-
-```
-@import "px-flexbox-design/_base.flexbox.scss";
-```
-
-## Use it in your project
+## Options
 
 The flexbox module exposes many features available in flexbox layouts with simple, easy-to-use classes.
 
@@ -118,8 +106,5 @@ For a full, interactive demo of the available classes and enhanced documentation
 
 `.flex--spaced--multi` Children distribute themselves equally throughout the container. [sets *align-content: space-around*]
 
-## Dependencies
+View the full API [here](http://predixdev.github.io/px-flexbox-design/).
 
-This module depends on the following modules (automatically included with Bower install):
-
-* [px-functions-design](https://github.com/PredixDev/px-functions-design)
