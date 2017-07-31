@@ -1,3 +1,7 @@
+v1.0.1
+==================
+* remove codepens example in demo
+
 v1.0.0
 ==================
 * updated dependencies for design refresh
