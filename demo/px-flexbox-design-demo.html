@@ -24,9 +24,9 @@
   selected-options="{{selectedOptions}}"
   selected-tab="{{selectedTab}}">
 
-  <template is="dom-if" if="[[_tabIs('Basic flex container',selectedTab)]]" restamp="true">
+  <template is="dom-if" if="[[_tabIs('Basic flex container',selectedTab)]]" restamp>
     <!-- 2: Set Options -->
-    <px-sass-doc-option
+    <px-sass-doc-option slot="options"
       option-name="Flex direction"
       choose-with="dropdown"
       choices='[
@@ -38,7 +38,7 @@
       ]'
       default-choice="row">
     </px-sass-doc-option>
-    <px-sass-doc-option
+    <px-sass-doc-option slot="options"
       option-name="Justify content"
       choose-with="dropdown"
       choices='[
@@ -51,7 +51,7 @@
       ]'
       default-choice="left">
     </px-sass-doc-option>
-    <px-sass-doc-option
+    <px-sass-doc-option slot="options"
       option-name="Align items"
       choose-with="dropdown"
       choices='[
@@ -66,7 +66,7 @@
     </px-sass-doc-option>
 
     <!-- 3: Make HTML Demo -->
-    <section data-slot="demoHTML">
+    <section slot="demo-html">
 <!--
 These classes go directly on the `flex` container. The classes on
 its children don't change, making it easy to change layouts.
@@ -81,9 +81,9 @@ Note: the `#demo1` ID is just for the demo and can be removed.
     </section>
   </template>
 
-  <template is="dom-if" if="[[_tabIs('Using flex items',selectedTab)]]" restamp="true">
+  <template is="dom-if" if="[[_tabIs('Using flex items',selectedTab)]]" restamp>
     <!-- 2: Set Options -->
-    <px-sass-doc-option
+    <px-sass-doc-option slot="options"
       option-name="Flex container direction"
       choose-with="dropdown"
       choices='[
@@ -94,23 +94,23 @@ Note: the `#demo1` ID is just for the demo and can be removed.
       ]'
       default-choice="row">
     </px-sass-doc-option>
-    <px-sass-doc-option
+    <px-sass-doc-option slot="options"
       option-name="Flex box 1"
       choose-with="boolean"
       default-choice="true">
     </px-sass-doc-option>
-    <px-sass-doc-option
+    <px-sass-doc-option slot="options"
       option-name="Flex box 2"
       choose-with="boolean"
       default-choice="true"
       class="u-mt++">
     </px-sass-doc-option>
-    <px-sass-doc-option
+    <px-sass-doc-option slot="options"
       option-name="Flex box 3"
       choose-with="boolean"
       default-choice="true">
     </px-sass-doc-option>
-    <px-sass-doc-option
+    <px-sass-doc-option slot="options"
       option-name="Align box 1"
       choose-with="dropdown"
       choices='[
@@ -121,7 +121,7 @@ Note: the `#demo1` ID is just for the demo and can be removed.
       ]'
       default-choice="top">
     </px-sass-doc-option>
-    <px-sass-doc-option
+    <px-sass-doc-option slot="options"
       option-name="Align box 2"
       choose-with="dropdown"
       choices='[
@@ -132,7 +132,7 @@ Note: the `#demo1` ID is just for the demo and can be removed.
       ]'
       default-choice="middle">
     </px-sass-doc-option>
-    <px-sass-doc-option
+    <px-sass-doc-option slot="options"
       option-name="Align box 3"
       choose-with="dropdown"
       choices='[
@@ -145,7 +145,7 @@ Note: the `#demo1` ID is just for the demo and can be removed.
     </px-sass-doc-option>
 <!-- <div id="demo2" class="flex flex--row"> -->
     <!-- 3: Make HTML Demo -->
-    <section data-slot="demoHTML">
+    <section slot="demo-html">
 <!--
 Children can be manipulated individually with a `.flex__item`
 block class and modifiers. The rules of the parent change
@@ -162,12 +162,12 @@ Note: the `#demo2` ID is just for the demo and can be removed.
   </template>
 
 <!-- Import Slot -->
-<section data-slot="import">
+<section slot="import">
 @import 'px-flexbox-design/_base.flexbox.scss';
 </section>
 
 <!-- Usage info -->
-<section data-slot="usage">
+<section slot="usage">
 The flexbox module exposes many features available in flexbox layouts with simple, easy-to-use classes.
 
 Using flexbox, you can change the way a container's children lay themselves out, or style individual items directly to change how they flow in the document. See the demos above for examples of applying flexbox classes.
