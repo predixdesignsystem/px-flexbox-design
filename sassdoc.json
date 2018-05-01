@@ -2,8 +2,8 @@
     {
         "description": "Sets a prepended namespace for all generated classes.\n\n",
         "commentRange": {
-            "start": 9,
-            "end": 12
+            "start": 25,
+            "end": 28
         },
         "context": {
             "type": "variable",
@@ -11,8 +11,8 @@
             "value": "$inuit-namespace",
             "scope": "default",
             "line": {
-                "start": 13,
-                "end": 13
+                "start": 29,
+                "end": 29
             }
         },
         "group": [
